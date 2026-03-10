@@ -1,273 +1,256 @@
-:root {
-    --nba-red: #C8102E;
-    --nba-black: #000000;
-    --nba-gold: #FDB927;
-    --nba-white: #FFFFFF;
-    --nba-gray: #1D1D1D;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* NBA Africa Colors - Balanced! */
 body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    background: linear-gradient(135deg, var(--nba-black) 0%, var(--nba-gray) 100%);
-    min-height: 100vh;
+    margin: 0;
     padding: 20px;
-    color: var(--nba-white);
-}
-
-/* Hero Section */
-.hero-section {
+    font-family: 'Inter', Arial, sans-serif;
+    background: linear-gradient(135deg, #1D428A 0%, #000000 100%); /* Science Blue to Black */
+    color: white;
     text-align: center;
-    margin-bottom: 24px;
 }
 
 h1 {
     font-size: 48px;
     font-weight: 800;
-    background: linear-gradient(135deg, var(--nba-red) 0%, var(--nba-gold) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    margin-bottom: 12px;
-    text-shadow: 0 4px 10px rgba(253, 185, 39, 0.3);
+    color: #FDB927; /* Gold */
+    margin-bottom: 8px;
 }
 
 .tagline {
     font-size: 18px;
-    color: var(--nba-gold);
+    color: white;
     font-weight: 600;
-    letter-spacing: 0.5px;
+    margin-bottom: 32px;
 }
 
-/* Mission Box */
-.mission-box {
-    background: linear-gradient(135deg, var(--nba-red) 0%, #a00d26 100%);
-    border-radius: 16px;
-    padding: 24px;
-    margin: 0 auto 32px;
-    max-width: 900px;
-    box-shadow: 0 10px 30px rgba(200, 16, 46, 0.4);
-    border: 2px solid var(--nba-gold);
-}
-
-.mission-box p {
-    font-size: 15px;
-    line-height: 1.8;
-    color: var(--nba-white);
-}
-
-.mission-box strong {
-    color: var(--nba-gold);
-    font-weight: 700;
-}
-
-/* Scoreboard Container */
-.scoreboard-container {
+/* Scoreboard */
+.container {
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 40px;
-    max-width: 900px;
+    max-width: 800px;
     margin: 0 auto 32px;
-    background: rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(10px);
-    border-radius: 20px;
-    padding: 40px 32px;
-    border: 2px solid rgba(253, 185, 39, 0.3);
+    background: white; /* WHITE background */
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
-.team-section {
-    text-align: center;
+.team-box {
     flex: 1;
 }
 
 h3 {
     font-size: 24px;
     font-weight: 700;
-    color: var(--nba-gold);
-    margin-bottom: 20px;
+    color: #1D428A; /* Science Blue */
+    margin-bottom: 16px;
     text-transform: uppercase;
-    letter-spacing: 2px;
 }
 
 .score {
-    font-size: 96px;
+    font-size: 80px;
     font-weight: 800;
-    color: var(--nba-white);
-    margin-bottom: 24px;
-    line-height: 1;
-    transition: all 0.3s ease;
+    color: #000000; /* Black */
+    margin: 20px 0;
 }
 
-/* Winning team highlights */
+/* Winning team gets gold */
 .score.winning {
-    color: var(--nba-gold);
-    text-shadow: 0 0 20px rgba(253, 185, 39, 0.6);
-    transform: scale(1.1);
+    color: #FDB927; /* Gold */
 }
 
-.vs-divider {
+.vs {
     font-size: 32px;
     font-weight: 800;
-    color: var(--nba-red);
-    padding: 0 20px;
-}
-
-/* Buttons */
-.button-group {
-    display: flex;
-    gap: 12px;
-    justify-content: center;
+    color: #C8102E; /* Red */
+    align-self: center;
 }
 
 button {
-    background: linear-gradient(135deg, var(--nba-red) 0%, #a00d26 100%);
-    color: var(--nba-white);
-    border: 2px solid var(--nba-gold);
+    background: #1D428A; /* Science Blue */
+    color: white;
+    border: none;
     padding: 12px 24px;
     font-size: 16px;
     font-weight: 700;
-    font-family: 'Inter', sans-serif;
     border-radius: 8px;
     cursor: pointer;
-    transition: all 0.2s ease;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    margin: 4px;
+    font-family: 'Inter', sans-serif;
 }
 
 button:hover {
-    background: linear-gradient(135deg, var(--nba-gold) 0%, #e5a820 100%);
-    color: var(--nba-black);
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(253, 185, 39, 0.5);
+    background: #FDB927; /* Gold on hover */
+    color: #000000;
 }
 
-button:active {
-    transform: translateY(0);
-}
-
-/* Controls Section */
-.controls-section {
-    display: flex;
-    gap: 16px;
-    justify-content: center;
+/* Controls */
+.controls {
     margin-bottom: 32px;
-    flex-wrap: wrap;
 }
 
 .winner-btn {
-    background: linear-gradient(135deg, var(--nba-gold) 0%, #e5a820 100%);
-    color: var(--nba-black);
-    font-size: 18px;
+    background: #FDB927; /* Gold */
+    color: #000000;
     padding: 16px 32px;
-    border: none;
+    font-size: 18px;
+    margin-right: 12px;
 }
 
 .winner-btn:hover {
-    background: linear-gradient(135deg, #ffcf4b 0%, var(--nba-gold) 100%);
-    transform: scale(1.05);
+    background: #C8102E; /* Red on hover */
+    color: white;
 }
 
-.new-game-btn {
-    background: rgba(255, 255, 255, 0.1);
-    color: var(--nba-white);
-    border: 2px solid var(--nba-white);
+.new-btn {
+    background: #C8102E; /* Red */
+    color: white;
 }
 
-.new-game-btn:hover {
-    background: var(--nba-white);
-    color: var(--nba-black);
+.new-btn:hover {
+    background: #000000; /* Black on hover */
 }
 
-/* History Section */
-.history-section {
-    max-width: 900px;
+/* Featured Player */
+.featured-player {
+    max-width: 800px;
     margin: 0 auto 32px;
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 16px;
+    background: #FDB927; /* Gold */
     padding: 24px;
-    border: 1px solid rgba(253, 185, 39, 0.2);
+    border-radius: 12px;
+    color: #000000;
 }
 
-.history-label {
+#featured-player {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.player-btn {
+    background: #C8102E; /* Red */
+    color: white;
+}
+
+.player-btn:hover {
+    background: #1D428A; /* Science Blue on hover */
+}
+
+/* History */
+.history {
+    max-width: 800px;
+    margin: 0 auto 32px;
+    background: white; /* WHITE */
+    color: #000000;
+    padding: 24px;
+    border-radius: 12px;
+}
+
+.label {
     font-size: 14px;
     font-weight: 700;
-    color: var(--nba-gold);
+    color: #1D428A; /* Science Blue */
     text-transform: uppercase;
-    letter-spacing: 1.5px;
     margin-bottom: 12px;
 }
 
-.history-text {
-    background: rgba(0, 0, 0, 0.3);
-    border-radius: 8px;
+#save-el {
+    background: #f5f5f5;
     padding: 16px;
-    min-height: 60px;
+    border-radius: 8px;
+    min-height: 40px;
+    margin-bottom: 16px;
     font-size: 14px;
-    color: var(--nba-white);
+}
+
+/* Mission */
+.mission {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white; /* WHITE */
+    color: #000000;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.mission h2 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #C8102E; /* Red */
+    margin-bottom: 24px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.stat-box {
+    background: #1D428A; /* Science Blue */
+    padding: 20px;
+    border-radius: 12px;
+    flex: 1;
+    color: white;
+}
+
+.stat-number {
+    font-size: 36px;
+    font-weight: 800;
+    color: #FDB927; /* Gold */
+    margin-bottom: 8px;
+}
+
+.stat-label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.mission p {
+    font-size: 16px;
     line-height: 1.8;
     margin-bottom: 16px;
-    max-height: 150px;
-    overflow-y: auto;
+    text-align: left;
 }
 
-.save-btn {
-    width: 100%;
+.mission ul {
+    text-align: left;
+    margin: 20px 0;
+    padding-left: 24px;
 }
 
-/* Footer */
-footer {
-    text-align: center;
-    padding: 24px;
-    margin-top: 32px;
-}
-
-footer p {
-    color: rgba(255, 255, 255, 0.7);
-    font-size: 14px;
+.mission li {
+    font-size: 16px;
+    margin-bottom: 12px;
     line-height: 1.6;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 36px;
-    }
+.hashtags {
+    font-weight: 700;
+    color: #1D428A; /* Science Blue */
+    font-size: 18px;
+    text-align: center;
+    margin-top: 24px;
+}
 
-    .scoreboard-container {
+/* Mobile */
+@media (max-width: 768px) {
+    .container {
         flex-direction: column;
         gap: 20px;
-        padding: 32px 24px;
+        padding: 24px;
     }
-
-    .vs-divider {
+    
+    .vs {
         transform: rotate(90deg);
-        padding: 20px 0;
     }
-
+    
     .score {
-        font-size: 72px;
+        font-size: 60px;
     }
-
-    .button-group {
+    
+    .stats {
         flex-direction: column;
-        width: 100%;
-    }
-
-    button {
-        width: 100%;
-    }
-
-    .controls-section {
-        flex-direction: column;
-    }
-
-    .winner-btn, .new-game-btn {
-        width: 100%;
     }
 }
