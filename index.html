@@ -13,11 +13,12 @@
     </head>
     <body>
         <h1>🏀 She Hoops Africa</h1>
+        <button onclick="setTeamNames()" class="team-name-btn">SET TEAM NAMES</button>
         <p class="tagline">Empowering African Women & Youth Through Basketball</p>
 
         <div class="container">
             <div class="team-box">
-                <h3>HOME</h3>
+                <h3 id="home-name">HOME</h3>
                 <p id="points-el" class="score">0</p>
                 <button onclick="add1point()">+1</button>
                 <button onclick="add2point()">+2</button>
@@ -27,7 +28,7 @@
             <div class="vs">VS</div>
 
             <div class="team-box">
-                <h3>GUEST</h3>
+                <h3 id="guest-name">GUEST</h3>
                 <p id="point-el" class="score">0</p>
                 <button onclick="add1points()">+1</button>
                 <button onclick="add2points()">+2</button>
