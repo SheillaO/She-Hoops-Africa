@@ -181,9 +181,9 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 🔗 Resources
 
 - [NBA Africa Official Website](https://www.nba.com/africa)
-- [Basketball Without Borders](https://www.nba.com/bwb)
+- [Basketball Without Borders](https://bwb.nba.com/)
 - [Jr. NBA Programs](https://jr.nba.com/)
-- [NBA Academy Africa](https://www.nba.com/africa/nba-academy-africa)
+- [NBA Academy Africa](https://nbaacademy.nba.com/location/africa/)
 
 ---
 
