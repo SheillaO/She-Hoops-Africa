@@ -2,6 +2,9 @@
 
 An interactive basketball scoreboard celebrating African women in basketball and promoting youth sports development across the continent. Built to highlight NBA Africa's mission of empowering communities through basketball, innovation, and financial literacy.
 
+<img width="1282" height="857" alt="She Hoops Africa" src="https://github.com/user-attachments/assets/c53b0eeb-6b69-4860-a2fa-585a3d14784d" />
+
+
 🚀 Live Demo
 
 View Live Demo <https://shehoopsafrica.netlify.app/>
