@@ -48,3 +48,134 @@ Red (#C8102E) - Energy and passion
 Gold (#FDB927) - Excellence and achievement
 Black (#000000) - Strength and power
 White (#FFFFFF) - Clarity and openness
+
+📝 How It Works
+Score Tracking
+
+Click +1, +2, or +3 buttons to add points
+Leading team's score automatically highlights in gold
+Real-time updates with smooth visual feedback
+
+Featured Players System
+javascriptlet players = [
+    "Evelyn Akhator (Nigeria) - WNBA Player",
+    "Zahra Baitie (Ghana) - Professional Player",
+    // ... 6 total players
+]
+
+function showPlayer() {
+    playerEl.textContent = "⭐ Featured: " + players[currentPlayer]
+    currentPlayer += 1
+    if (currentPlayer >= players.length) {
+        currentPlayer = 0  // Cycle back to start
+    }
+}
+Winner Detection
+javascriptfunction checkWinner() {
+    if (mypoints > mypoint) {
+        alert("🏆 HOME TEAM WINS! 🏆")
+    } else if (mypoint > mypoints) {
+        alert("🏆 GUEST TEAM WINS! 🏆")
+    } else {
+        alert("🤝 IT'S A TIE! 🤝")
+    }
+}
+Dynamic Highlighting
+javascriptfunction updateLeadingTeam() {
+    pointsEl.classList.remove("winning")
+    pointEl.classList.remove("winning")
+    
+    if (mypoints > mypoint) {
+        pointsEl.classList.add("winning")  // Gold color!
+    } else if (mypoint > mypoints) {
+        pointEl.classList.add("winning")
+    }
+}
+🎓 What I Learned
+This project helped me practice:
+
+DOM Manipulation: Using getElementById(), classList.add(), and classList.remove()
+Arrays: Storing and cycling through player names
+Conditional Logic: if/else statements for game rules
+Event Handling: onclick events for user interaction
+Loops: Using for loops to display game history
+String Concatenation: Building dynamic messages
+CSS Variables: Organizing color themes
+Responsive Design: Mobile-first approach with flexbox
+
+🌟 Featured African Women Players
+The scoreboard showcases these amazing athletes:
+
+Evelyn Akhator (Nigeria) - WNBA Player
+Zahra Baitie (Ghana) - Professional Player
+Janeth Arcain (Senegal) - Basketball Star
+Aya Traoré (Mali) - Rising Star
+Ezinne Kalu (Nigeria) - National Team Captain
+Aïssata Maïga (Mali) - Professional Player
+
+🔮 Future Improvements
+
+ Add shot clock timer (24 seconds)
+ Team name customization
+ Sound effects for scoring
+ Fouls and timeouts tracking
+ Player statistics database
+ Multiple game modes (quarters, halves)
+ Export game data to CSV
+ More African women players profiles
+ Multi-language support (French, Swahili, etc.)
+
+🌍 NBA Africa Impact
+NBA Africa operates across the continent with:
+
+Basketball Without Borders (BWB) - Elite camp program
+Jr. NBA - Youth league programs in 16+ countries
+NBA Academy Africa - Training elite prospects
+Innovation Hub - $70K tech startup accelerator
+Partnerships - M-PESA (Kenya), MTN, and more
+
+Innovation Hub Program
+
+12-month Business Incubation Program
+Up to $70,000 in program value
+Top 3 companies receive: $10,000 in OpenAI API credits
+Immersion experience with OpenAI's engineering team
+Helps African tech startups scale from proof-of-concept to market-ready products
+
+💪 Supporting Women in Basketball
+African women's basketball is growing rapidly:
+
+Increased participation in youth programs
+More professional opportunities in international leagues
+Rising WNBA representation from Africa
+National team successes in continental competitions
+Grassroots programs making basketball accessible
+
+👤 Author
+Olga
+
+Role: Technical Product Marketing Manager
+GitHub: @SheillaO
+Mission: Promoting African women in basketball and technology
+
+📄 License
+This project is open source and available under the MIT License.
+🙏 Acknowledgments
+
+NBA Africa for inspiring innovation and sports development across the continent
+African women basketball players who are breaking barriers
+M-PESA and Safaricom for financial literacy initiatives in Kenya
+Youth basketball programs making the sport accessible
+The developer community supporting learning and growth
+
+🔗 Resources
+
+NBA Africa Official Website
+Basketball Without Borders
+Jr. NBA Programs
+NBA Academy Africa
+
+
+⭐ Star this project if you support women's basketball in Africa!
+💡 Share it to inspire the next generation of African basketball stars!
+🏀 #SheHoopsAfrica • #NBAfrica • #BasketballWithoutBorders
