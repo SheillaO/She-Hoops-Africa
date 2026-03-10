@@ -120,3 +120,12 @@ function showPlayer() {
     currentPlayer = 0;
   }
 }
+
+// Set team names
+function setTeamNames() {
+    let homeName = prompt("Enter HOME team name:")
+    let guestName = prompt("Enter GUEST team name:")
+    
+    document.getElementById("home-name").textContent = homeName
+    document.getElementById("guest-name").textContent = guestName
+}
