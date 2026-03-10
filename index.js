@@ -58,17 +58,16 @@ function updateLeadingTeam() {
 
 // Check winner
 function checkWinner() {
-  if (mypoints > mypoint) {
-    alert(
-      "🏆 HOME TEAM WINS! 🏆\n\nHOME: " + mypoints + " | GUEST: " + mypoint,
-    );
-  } else if (mypoint > mypoints) {
-    alert(
-      "🏆 GUEST TEAM WINS! 🏆\n\nHOME: " + mypoints + " | GUEST: " + mypoint,
-    );
-  } else {
-    alert("🤝 IT'S A TIE! 🤝\n\nHOME: " + mypoints + " | GUEST: " + mypoint);
-  }
+    let homeName = document.getElementById("home-name").textContent
+    let guestName = document.getElementById("guest-name").textContent
+    
+    if (mypoints > mypoint) {
+        alert("🏆 " + homeName + " WINS! 🏆\n\n" + homeName + ": " + mypoints + " | " + guestName + ": " + mypoint)
+    } else if (mypoint > mypoints) {
+        alert("🏆 " + guestName + " WINS! 🏆\n\n" + homeName + ": " + mypoints + " | " + guestName + ": " + mypoint)
+    } else {
+        alert("🤝 IT'S A TIE! 🤝\n\n" + homeName + ": " + mypoints + " | " + guestName + ": " + mypoint)
+    }
 }
 
 // Save function: track each round
