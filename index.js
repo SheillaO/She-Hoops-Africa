@@ -99,6 +99,7 @@ function newGame() {
 
 // Featured African Women Players
 let players = [
+  "Olivia Nelson-Ododa (Kenya) - WNBA LA Sparks",
   "Evelyn Akhator (Nigeria) - WNBA Player",
   "Zahra Baitie (Ghana) - Professional Player",
   "Janeth Arcain (Senegal) - Basketball Star",
