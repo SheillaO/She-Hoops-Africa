@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>She Hoops Africa - Basketball Scoreboard</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="hero-section">
+        <h1>🏀 She Hoops Africa</h1>
+        <p class="tagline">Empowering African Women & Youth Through Basketball</p>
+    </div>
+
+    <div class="mission-box">
+        <p><strong>NBA Africa Innovation Hub:</strong> Supporting African tech startups with a 12-month Business Incubation Program (valued up to $70,000). Top 3 companies receive $10,000 in API credits + immersion with OpenAI's engineering team. Building the future of sports and technology in Africa! 🚀</p>
+    </div>
+
+    <div class="scoreboard-container">
+        <div class="team-section">
+            <h3>HOME</h3>
+            <p id="points-el" class="score">0</p>
+            <div class="button-group">
+                <button onclick="add1point()">+1</button>
+                <button onclick="add2point()">+2</button>
+                <button onclick="add3point()">+3</button>
+            </div>
+        </div>
+
+        <div class="vs-divider">VS</div>
+
+        <div class="team-section">
+            <h3>GUEST</h3>
+            <p id="point-el" class="score">0</p>
+            <div class="button-group">
+                <button onclick="add1points()">+1</button>
+                <button onclick="add2points()">+2</button>
+                <button onclick="add3points()">+3</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="controls-section">
+        <button onclick="checkWinner()" class="winner-btn">CHECK WINNER 🏆</button>
+        <button onclick="newGame()" class="new-game-btn">NEW GAME</button>
+    </div>
+
+    <div class="history-section">
+        <p class="history-label">Game History</p>
+        <p id="save-el" class="history-text">No rounds saved yet</p>
+        <button onclick="save()" class="save-btn">SAVE ROUND</button>
+    </div>
+
+    <footer>
+        <p>Promoting basketball for African women and children • Inspiring the next generation of champions</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
