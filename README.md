@@ -1,19 +1,50 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+🏀 She Hoops Africa - Basketball Scoreboard
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+An interactive basketball scoreboard celebrating African women in basketball and promoting youth sports development across the continent. Built to highlight NBA Africa's mission of empowering communities through basketball, innovation, and financial literacy.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+🚀 Live Demo
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+View Live Demo <https://shehoopsafrica.netlify.app/>
 
-Happy Coding!
+🌟 Mission
+She Hoops Africa is dedicated to:
+
+🏀 Celebrating African women basketball players
+👧 Promoting youth basketball programs across Africa
+💡 Highlighting NBA Africa's Innovation Hub and partnerships
+🌍 Supporting tech innovation and financial literacy initiatives
+
+🎯 Why This Project Matters
+This scoreboard celebrates NBA Africa's continent-wide impact:
+
+Basketball Without Borders (BWB) camps
+Jr. NBA programs in 16+ African countries
+Financial literacy partnerships (including M-PESA in Kenya)
+Innovation Hub: $70K tech startup accelerator program
+Girls' basketball development programs
+
+✨ Features
+
+Live Score Tracking: Real-time HOME vs GUEST scoring
+Winner Announcement: Automatic winner detection with alerts
+Leading Team Highlight: Winning team's score turns gold
+Featured Players: Showcase 6 African women basketball players
+Game History: Track and save multiple rounds
+New Game Reset: Quick game restart
+Responsive Design: Works on desktop, tablet, and mobile
+
+🛠️ Technologies Used
+
+HTML5
+CSS3 (Flexbox, Gradients, CSS Variables)
+Vanilla JavaScript (ES6)
+Google Fonts (Inter)
+
+🎨 Design
+Built with NBA Africa's official color palette:
+
+Science Blue (#1D428A) - Innovation and trust
+Red (#C8102E) - Energy and passion
+Gold (#FDB927) - Excellence and achievement
+Black (#000000) - Strength and power
+White (#FFFFFF) - Clarity and openness
