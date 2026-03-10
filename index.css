@@ -243,6 +243,18 @@ button:hover {
   margin-top: 24px;
 }
 
+.team-name-btn {
+    background: #FDB927; /* Gold */
+    color: #000000;
+    margin-bottom: 24px;
+    padding: 12px 24px;
+}
+
+.team-name-btn:hover {
+    background: #1D428A; /* Science Blue */
+    color: white;
+}
+
 /* Footer */
 footer {
   max-width: 800px;
