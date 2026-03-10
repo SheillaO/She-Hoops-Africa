@@ -49,15 +49,16 @@ Gold (#FDB927) - Excellence and achievement
 Black (#000000) - Strength and power
 White (#FFFFFF) - Clarity and openness
 
-📝 How It Works
-Score Tracking
+## 📝 How It Works
 
-Click +1, +2, or +3 buttons to add points
-Leading team's score automatically highlights in gold
-Real-time updates with smooth visual feedback
+### Score Tracking
+- Click **+1**, **+2**, or **+3** buttons to add points
+- Leading team's score automatically highlights in **gold**
+- Real-time updates with smooth visual feedback
 
-Featured Players System
-javascriptlet players = [
+### Featured Players System
+```javascript
+let players = [
     "Evelyn Akhator (Nigeria) - WNBA Player",
     "Zahra Baitie (Ghana) - Professional Player",
     // ... 6 total players
@@ -70,8 +71,11 @@ function showPlayer() {
         currentPlayer = 0  // Cycle back to start
     }
 }
-Winner Detection
-javascriptfunction checkWinner() {
+```
+
+### Winner Detection
+```javascript
+function checkWinner() {
     if (mypoints > mypoint) {
         alert("🏆 HOME TEAM WINS! 🏆")
     } else if (mypoint > mypoints) {
@@ -80,8 +84,11 @@ javascriptfunction checkWinner() {
         alert("🤝 IT'S A TIE! 🤝")
     }
 }
-Dynamic Highlighting
-javascriptfunction updateLeadingTeam() {
+```
+
+### Dynamic Highlighting
+```javascript
+function updateLeadingTeam() {
     pointsEl.classList.remove("winning")
     pointEl.classList.remove("winning")
     
@@ -91,91 +98,97 @@ javascriptfunction updateLeadingTeam() {
         pointEl.classList.add("winning")
     }
 }
-🎓 What I Learned
+```
+
+## 🎓 What I Learned
+
 This project helped me practice:
+- **DOM Manipulation**: Using `getElementById()`, `classList.add()`, and `classList.remove()`
+- **Arrays**: Storing and cycling through player names
+- **Conditional Logic**: `if/else` statements for game rules
+- **Event Handling**: `onclick` events for user interaction
+- **Loops**: Using `for` loops to display game history
+- **String Concatenation**: Building dynamic messages
+- **CSS Variables**: Organizing color themes
+- **Responsive Design**: Mobile-first approach with flexbox
 
-DOM Manipulation: Using getElementById(), classList.add(), and classList.remove()
-Arrays: Storing and cycling through player names
-Conditional Logic: if/else statements for game rules
-Event Handling: onclick events for user interaction
-Loops: Using for loops to display game history
-String Concatenation: Building dynamic messages
-CSS Variables: Organizing color themes
-Responsive Design: Mobile-first approach with flexbox
+## 🌟 Featured African Women Players
 
-🌟 Featured African Women Players
 The scoreboard showcases these amazing athletes:
+- **Evelyn Akhator** (Nigeria) - WNBA Player
+- **Zahra Baitie** (Ghana) - Professional Player
+- **Janeth Arcain** (Senegal) - Basketball Star
+- **Aya Traoré** (Mali) - Rising Star
+- **Ezinne Kalu** (Nigeria) - National Team Captain
+- **Aïssata Maïga** (Mali) - Professional Player
 
-Evelyn Akhator (Nigeria) - WNBA Player
-Zahra Baitie (Ghana) - Professional Player
-Janeth Arcain (Senegal) - Basketball Star
-Aya Traoré (Mali) - Rising Star
-Ezinne Kalu (Nigeria) - National Team Captain
-Aïssata Maïga (Mali) - Professional Player
+## 🔮 Future Improvements
 
-🔮 Future Improvements
+- [ ] Add shot clock timer (24 seconds)
+- [ ] Team name customization
+- [ ] Sound effects for scoring
+- [ ] Fouls and timeouts tracking
+- [ ] Player statistics database
+- [ ] Multiple game modes (quarters, halves)
+- [ ] Export game data to CSV
+- [ ] More African women players profiles
+- [ ] Multi-language support (French, Swahili, etc.)
 
- Add shot clock timer (24 seconds)
- Team name customization
- Sound effects for scoring
- Fouls and timeouts tracking
- Player statistics database
- Multiple game modes (quarters, halves)
- Export game data to CSV
- More African women players profiles
- Multi-language support (French, Swahili, etc.)
+## 🌍 NBA Africa Impact
 
-🌍 NBA Africa Impact
 NBA Africa operates across the continent with:
+- **Basketball Without Borders (BWB)** - Elite camp program
+- **Jr. NBA** - Youth league programs in 16+ countries
+- **NBA Academy Africa** - Training elite prospects
+- **Innovation Hub** - $70K tech startup accelerator
+- **Partnerships** - M-PESA (Kenya), MTN, and more
 
-Basketball Without Borders (BWB) - Elite camp program
-Jr. NBA - Youth league programs in 16+ countries
-NBA Academy Africa - Training elite prospects
-Innovation Hub - $70K tech startup accelerator
-Partnerships - M-PESA (Kenya), MTN, and more
+### Innovation Hub Program
+- **12-month Business Incubation Program**
+- **Up to $70,000** in program value
+- **Top 3 companies receive:** $10,000 in OpenAI API credits
+- **Immersion experience** with OpenAI's engineering team
+- Helps African tech startups scale from proof-of-concept to market-ready products
 
-Innovation Hub Program
+## 💪 Supporting Women in Basketball
 
-12-month Business Incubation Program
-Up to $70,000 in program value
-Top 3 companies receive: $10,000 in OpenAI API credits
-Immersion experience with OpenAI's engineering team
-Helps African tech startups scale from proof-of-concept to market-ready products
-
-💪 Supporting Women in Basketball
 African women's basketball is growing rapidly:
+- Increased participation in youth programs
+- More professional opportunities in international leagues
+- Rising WNBA representation from Africa
+- National team successes in continental competitions
+- Grassroots programs making basketball accessible
 
-Increased participation in youth programs
-More professional opportunities in international leagues
-Rising WNBA representation from Africa
-National team successes in continental competitions
-Grassroots programs making basketball accessible
+## 👤 Author
 
-👤 Author
-Olga
+**Olga**
+- Role: Technical Product Marketing Manager
+- GitHub: [@SheillaO](https://github.com/SheillaO)
+- Mission: Promoting African women in basketball and technology
 
-Role: Technical Product Marketing Manager
-GitHub: @SheillaO
-Mission: Promoting African women in basketball and technology
+## 📄 License
 
-📄 License
-This project is open source and available under the MIT License.
-🙏 Acknowledgments
+This project is open source and available under the [MIT License](LICENSE).
 
-NBA Africa for inspiring innovation and sports development across the continent
-African women basketball players who are breaking barriers
-M-PESA and Safaricom for financial literacy initiatives in Kenya
-Youth basketball programs making the sport accessible
-The developer community supporting learning and growth
+## 🙏 Acknowledgments
 
-🔗 Resources
+- NBA Africa for inspiring innovation and sports development across the continent
+- African women basketball players who are breaking barriers
+- M-PESA and Safaricom for financial literacy initiatives in Kenya
+- Youth basketball programs making the sport accessible
+- The developer community supporting learning and growth
 
-NBA Africa Official Website
-Basketball Without Borders
-Jr. NBA Programs
-NBA Academy Africa
+## 🔗 Resources
 
+- [NBA Africa Official Website](https://www.nba.com/africa)
+- [Basketball Without Borders](https://www.nba.com/bwb)
+- [Jr. NBA Programs](https://jr.nba.com/)
+- [NBA Academy Africa](https://www.nba.com/africa/nba-academy-africa)
 
-⭐ Star this project if you support women's basketball in Africa!
-💡 Share it to inspire the next generation of African basketball stars!
-🏀 #SheHoopsAfrica • #NBAfrica • #BasketballWithoutBorders
+---
+
+⭐ **Star this project if you support women's basketball in Africa!**
+
+💡 **Share it to inspire the next generation of African basketball stars!**
+
+🏀 **#SheHoopsAfrica • #NBAfrica • #BasketballWithoutBorders**
