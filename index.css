@@ -234,6 +234,43 @@ button:hover {
     margin-top: 24px;
 }
 
+/* Footer */
+footer {
+    max-width: 800px;
+    margin: 40px auto 0;
+    padding: 32px 20px;
+    text-align: center;
+    border-top: 2px solid rgba(253, 185, 39, 0.3); /* Gold line */
+}
+
+.mission-footer {
+    font-size: 16px;
+    font-weight: 600;
+    color: #FDB927; /* Gold */
+    margin-bottom: 16px;
+    line-height: 1.6;
+}
+
+.credits {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.8;
+}
+
+.credits a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 2px;
+    transition: all 0.2s ease;
+}
+
+.credits a:hover {
+    color: #FDB927; /* Gold on hover */
+    border-bottom-color: #FDB927;
+}
+
 /* Mobile */
 @media (max-width: 768px) {
     .container {
